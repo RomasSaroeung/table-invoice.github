@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swipe Billing Receipt - Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+ <tr>
+  <div class="receipt">
+    <div class="logo"></div>
+    <img src="https://getswipe.in/assets/images/logo.png" alt="Swipe Logo" class="logo">
+    <h3>SWIPE BILLING APP</h3>
+    <p><strong>YOUR COMPANY NAME & LOGO</strong></p>
+    <p>MY HOME AVATAR<br>NANAKRAMGUDA<br>HYDERABAD, 500084</p>
+    <p>GST: 36ABCCS2942R1ZR<br>PHONE: 7989207832</p>
+
+    <div class="details">
+      <p>PAYMENT MODE: <strong>CASH</strong> <span class="right">DATE: 20 OCT 2021</span></p>
+      <p>BILL NO: 9-1-338 <span class="right">TIME: 20 OCT 21, 05:35 PM</span></p>
+    </div>
+
+    <hr>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ITEM NAME</th>
+          <th>QTY</th>
+          <th>PRICE</th>
+          <th>AMOUNT</th>
+          <th>(SAVINGS)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>WHITE FOREST CAKE 500 GRAM</td>
+          <td>1</td>
+          <td>590</td>
+          <td>560.5</td>
+          <td>(29.50)</td>
+        </tr>
+        <tr>
+          <td colspan="5">CGST 9% 42.75&nbsp;&nbsp;&nbsp;SGST 9% 42.75</td>
+        </tr>
+        <tr>
+          <td>TOOTHPASTE 50 GRAM</td>
+          <td>5</td>
+          <td>53</td>
+          <td>262.5</td>
+          <td>(0.00)</td>
+        </tr>
+        <tr>
+          <td colspan="5">CGST 2.5% 6.25&nbsp;&nbsp;&nbsp;SGST 2.5% 6.25</td>
+        </tr>
+        <tr>
+          <td>COFFEE</td>
+          <td>1</td>
+          <td>177</td>
+          <td>177</td>
+          <td>(0.00)</td>
+        </tr>
+        <tr>
+          <td colspan="5">CGST 9% 13.5&nbsp;&nbsp;&nbsp;SGST 9% 13.5</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr>
+
+    <div class="summary">
+      <p>ITEMS/QTY: 3 / 7.000</p>
+      <p>GST: ₹125</p>
+      <p><strong>TOTAL MRP: ₹1030.5</strong></p>
+      <p><strong>TOTAL SAVINGS: ₹29.5</strong></p>
+      <p><strong>TOTAL AMOUNT: ₹1001</strong></p>
+      <p><strong>AMOUNT PAYABLE: ₹1001</strong></p>
+    </div>
+
+    <hr>
+
+    <p class="center">THANK YOU FOR SHOPPING WITH US</p>
+    <p class="center">THANK YOU VISIT AGAIN!</p>
+
+    <p class="center small">Powered by Swipe POS, https://getSwipe.in</p>
+  </div>
+ </tr>
+</body>
+</html>
